@@ -1,0 +1,140 @@
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ */
+/* 
+ 背景颜色 
+#FBF5F3 
+#e7f5ff
+ 字体颜色 
+#000022
+浅色字体 
+#66667a
+按钮备选颜色 
+#DE3C4B
+#C42847
+#E28413
+#fdf0d5
+*/
+/* /////////////////////////////////////////////////////////*/
+/* 第一个代码无效，原因未知 */
+.header {
+  display: flex;
+  background-color: #000;
+}
+/* //////////////////////////////////////////////////// */
+
+/* section-nav */
+
+.section-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
+  background-color: #fef6e6;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0.6rem 0;
+  gap: 1.2rem;
+}
+
+.logo-img {
+  width: 7.2rem;
+  height: 7.2rem;
+}
+
+.logo-text {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #000022;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 1.8rem;
+
+  gap: 4.8rem;
+}
+
+.main-nav-item:link,
+.main-nav-item:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 0.8rem 2.4rem;
+  background-color: #e28413;
+  border-radius: 1rem;
+  color: #fff;
+
+  transition: all 0.3s;
+}
+
+.main-nav-item:active,
+.main-nav-item:hover {
+  background-color: #cb7711;
+}
+
+/* section-convenient */
+.section-conveninent {
+  margin-top: 9.6rem;
+}
+
+.figure {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  width: 40rem;
+  padding: 1.6rem 4.8rem;
+  background-color: #fdf0d5;
+  border-radius: 10rem;
+
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.16);
+}
+
+.figure-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.figure-text {
+  color: #000022;
+}
+
+figure p {
+  color: #66667a;
+}
+
+.study {
+  display: flex;
+}
+
+#schedule-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* #schedule-content{
+} */
+
+/* 表格头容器 */
+.tr-header {
+  height: 3rem;
+}
+
+/* 学期 */
+.term {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  border-bottom: 0.2rem solid #000022;
+}
+
+.yon {
+  display: inline;
+}

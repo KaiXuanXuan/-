@@ -1,0 +1,163 @@
+/* 背景颜色 */
+#FBF5F3 
+/* 字体颜色 */
+#000022
+/* 浅色字体 */
+#66667a
+/* 按钮备选颜色 */
+#DE3C4B
+#C42847
+#E28413
+/* ///////////////////////////////////// */
+/* 第一个代码无效，原因未知 */
+* {
+  padding: 0;
+}
+/* ///////////////////////////////////// */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: #000022;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.6rem;
+  row-gap: 1.6rem;
+  justify-items: center;
+}
+
+/* 整张课表容器 */
+.schedule-container {
+  width: 64rem;
+  height: 66rem;
+  padding: 1rem;
+  margin: 10rem 5rem 10rem 20rem;
+  border-collapse: collapse;
+  background-color: #fdf0d5;
+  border-radius: 3rem;
+
+  font-family: "ZCOOL KuaiLe", sans-serif;
+}
+
+/* 打卡容器 */
+.check-container {
+  margin: 10rem 25rem 5rem auto;
+  padding: 2rem;
+  border-collapse: collapse;
+  background-color: #fdf0d5;
+  border-radius: 3rem;
+  height: 66rem;
+}
+
+.input-container {
+  width: 22rem;
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 8rem 0 8rem;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 双节课表 */
+tr {
+  width: 5rem;
+  height: 10rem;
+  border: 1px solid #212529;
+}
+
+/* 单节课程 */
+tr:nth-child(4),
+tr:nth-child(6) {
+  height: 5rem;
+}
+
+/* 表格头 */
+th {
+  width: 10rem;
+  padding: 0 1.5rem;
+}
+
+/* 课程内容 */
+td {
+  font-size: 1.6rem;
+  padding: 0 1.6rem;
+  border: 1px solid #212529;
+  border-radius: 0.3rem;
+}
+
+label {
+  display: block;
+  width: 21rem;
+  font-size: 2.4rem;
+  padding: 0.4rem 0;
+  margin: 0 auto;
+  font-family: "ZCOOL KuaiLe", sans-serif;
+}
+
+.label-header {
+  width: 42rem;
+  font-size: 3.2rem;
+  font-weight: bolder;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 40rem;
+  margin: 0.4rem auto;
+}
+
+.label-button {
+  border: 1px solid #212529;
+  border-radius: 0.3rem;
+  padding: 0.4rem 1.6rem;
+}
+
+.input-keyboard {
+  width: 20rem;
+  height: 2.4rem;
+  margin: 0 auto;
+}
+
+.submit {
+  width: 6rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+img {
+  border-radius: 2rem;
+}
